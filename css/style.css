@@ -11,16 +11,28 @@ html{
 
 /* header styling */
 
-.img{
+img{
     width: 100% !important;
     height: 400px !important;
 }
 
+.header img{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/* hero style */
+
+.heri-img img{
+    height: 100px !important;
+}
 
 /* main image styling */
 .main img{
     height: 400px;
 }
+
+
 
 
 /* media query styling */
@@ -29,12 +41,7 @@ html{
 
 
     .img-1{
-        height: 400px !important;
-        width: 100% !important;
-    }
-
-    .hero img{
-        height: 100% !important;
+        height: 300px !important;
         width: 100% !important;
     }
 
