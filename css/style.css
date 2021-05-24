@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: cursive;
+}
+
+
+/* header styling */
+
+.img{
+    width: 100% !important;
+    height: 400px !important;
+}
+
+
+/* main image styling */
+.main img{
+    height: 400px;
+}
+
+
+/* media query styling */
+@media (max-width: 768px){
+
+
+
+    .img-1{
+        height: 400px !important;
+        width: 100% !important;
+    }
+
+    .hero img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .main img{
+        height: 200px !important;
+        padding: 10px;
+    }
+
+    .main h4{
+        font-size: 18px;
+    }
+
+    .main h5{
+        font-size: 16px;
+    }
+    }
