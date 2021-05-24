@@ -11,11 +11,6 @@ html{
 
 /* header styling */
 
-img{
-    width: 100% !important;
-    height: 400px !important;
-}
-
 .header img{
     height: 100% !important;
     width: 100% !important;
@@ -23,9 +18,7 @@ img{
 
 /* hero style */
 
-.heri-img img{
-    height: 100px !important;
-}
+
 
 /* main image styling */
 .main img{
