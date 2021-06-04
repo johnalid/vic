@@ -11,8 +11,8 @@ html{
 
 /* header styling */
 
-.header img{
-    height: 100% !important;
+.hero-img{
+    height: 500px !important;
     width: 100% !important;
 }
 
