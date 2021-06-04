@@ -25,11 +25,33 @@ html{
     height: 400px;
 }
 
+.abt-img img{
+    border-radius: 100% !important;
+}
+
+.job{
+    border: 1px solid black !important;
+    border-radius: 10px;
+    margin: 50px !important;
+    overflow: hidden;
+}
+
+.bost{
+    padding: 20px !important;
+}
+
 
 
 
 /* media query styling */
 @media (max-width: 768px){
+
+    .job{
+        border: 1px solid black !important;
+        border-radius: 10px;
+        margin: 0 !important;
+        overflow: hidden;
+    }
 
 
 
