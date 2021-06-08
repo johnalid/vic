@@ -1,3 +1,22 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+.reach i{
+font-size: 100px;
+color: red;
+padding: 13px;
+}
+
+.reach i:hover{
+    font-size: 100px;
+    color: blue;
+    padding: 13px;
+    border-radius: 100px solid green;
+    }
+
+i{
+    width: 100%;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +26,7 @@
 html{
     font-family: cursive;
 }
-
+ /* index styling */
 
 /* header styling */
 
@@ -25,20 +44,37 @@ html{
     height: 400px;
 }
 
-.abt-img img{
-    border-radius: 100% !important;
+.abt-us img{
+    height: 500px !important;
+    filter: drop-shadow(150%);
+    filter:brightness(20%);
+    filter:contrast(300%);
+    filter: blur(8px) !important;
+
 }
 
-.job{
-    border: 1px solid black !important;
-    border-radius: 10px;
-    margin: 50px !important;
-    overflow: hidden;
+.abt-us p{
+    font-weight: bolder;
+    font-size: x-large;
+    color:  black !important;
+    filter:brightness(300%);
+    filter:contrast(350%);
+    border: 1px solid red;
+
 }
 
-.bost{
-    padding: 20px !important;
+.abt-u{
+    display: none;
 }
+
+
+
+
+/* end of index styling */
+
+/* start of about styling */
+
+/* end of about styling */
 
 
 
@@ -46,11 +82,12 @@ html{
 /* media query styling */
 @media (max-width: 768px){
 
-    .job{
-        margin: 0 !important;
-        overflow: hidden;
+    .begin{
+        display: none;
     }
 
+    
+/* ndex styling */
     .two, .three{
         margin-top: 20px !important;
     }
@@ -74,4 +111,57 @@ html{
     .main h5{
         font-size: 16px;
     }
+
+
+    .abt-us img{
+        height: 400px !important;
     }
+
+    .abt-u{
+        display: contents;
+    }
+
+    .abt-p{
+        display: none;
+    }
+
+    .abt-u p{
+        font-style: oblique;
+        background: #0d6efd;
+        font-size: large;
+        color:  white !important;
+        border: none;
+        /* padding: 25px; */
+    
+    }
+
+    .form-control{
+        overflow: hidden;
+    }
+
+    footer a{
+        color: white !important;
+    }
+
+
+
+    /* end of index styling */
+
+
+    /* About styling */
+
+
+
+
+    /* end of about styling */
+
+
+
+
+
+
+
+
+
+
+}
