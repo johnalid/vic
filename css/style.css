@@ -162,8 +162,20 @@ html{
 	grid-gap: 2px;
   }
 
+  .partner-logo img{
+      height: 200px;
+      width: 200px;
+      padding: 10px;
+  }
+
+  .partners{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
+	grid-gap: 2px;
+  }
+
   .member img{
-      border-radius: 90%;
+      border-radius: 10px;
   }
 
   .customer-care {
