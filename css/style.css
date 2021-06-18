@@ -130,7 +130,7 @@ html{
 
 .parallax-four {
   /* The image used */
-  background-image: url("../image/images.jpg");
+  background-image: url("../image/beautiful-young-girl-kid-wearing-260nw-1513804589.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -213,6 +213,10 @@ html{
 
   
 /* end of about styling */
+
+.contact-img img{
+    height: 584px;
+}
 
 
 
