@@ -30,6 +30,11 @@ html{
 
 /* header styling */
 
+.navbar-brand img{
+    border-radius: 100% !important;
+    padding: 5px;
+}
+
 .hero-img{
     height: 500px !important;
     width: 100% !important;
@@ -64,6 +69,14 @@ html{
 }
 
 .abt-u{
+    display: none;
+}
+
+.abt-u{
+    display: contents;
+}
+
+.abt-p{
     display: none;
 }
 
@@ -218,6 +231,10 @@ html{
     height: 584px;
 }
 
+
+.foot3 a{
+    color: #fff !important;
+}
 
 
 
