@@ -1,5 +1,19 @@
 @import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
 
+.nav-item a:hover{
+    color: #000!important;
+    background-color: #fff;
+    text-decoration: underline;
+    border-radius: 6px;
+}
+
+.nav-item .active{
+    color: #fff !important;
+    background: #000;
+    border-radius: 6px;
+    padding: 10px;
+} 
+
 
 .reach i{
 font-size: 100px;
