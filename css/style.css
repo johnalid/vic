@@ -14,6 +14,15 @@
     padding: 10px;
 } 
 
+.history a{
+    text-decoration: none;
+}
+
+.history a:hover{
+    color: rgb(253, 15, 15)!important;
+    text-decoration: underline;
+}
+
 
 .reach i{
 font-size: 100px;
