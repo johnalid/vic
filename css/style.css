@@ -209,13 +209,13 @@ html{
     background-size: cover;
   }
 
-  /* .care{
+  .care{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
 	grid-gap: 2px;
     justify-content: center;
     text-align: center;
-  } */
+  }
 
   .care i{
     font-size: 100px;
