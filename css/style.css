@@ -193,7 +193,7 @@ html{
    border-radius: 50%;
    padding: 10px;
 }
-/* contact us styling */
+
 
   .customer-care {
     /* The image used */
@@ -225,7 +225,7 @@ html{
 
 
   
-/* end of contact  styling */
+/* end of about styling */
 
 .contact-img img{
     height: 584px;
@@ -315,9 +315,9 @@ html{
     /* end of about styling */
 
 
-    /* contact us */
 
-    .care2{
+
+ .care2{
         display: none;
     }
 
