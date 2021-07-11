@@ -18,8 +18,10 @@
         <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
+    <script src="app.js"></script>
 
-    <link rel="stylesheet" href="script.js">
+
+    <!-- <link rel="stylesheet" href="script.js"> -->
 </head>
 <body>
 
@@ -146,12 +148,16 @@
               <p class="text-center">You can make enquires about our different products through all our available channels. We are sure of quick response.</p>
             
         
-             <div class="row p-3">
+             <div class="row p-3 rr">
               <div class="col-lg-8 col-medium-4 col-sm-12">
-                <h5 class="p-3  text-center">YOU CAN SEND US <br> A MESSAGE</h5>
+                <h5 class="p-4 text-center">YOU CAN SEND US A MESSAGE</h5>
                 <div class="panel-body bg-light mt-2">
+
+
+                  <div id="errorMessage"></div> 
         
-                  <form action="connect.php" method="post" class="p-5 shadow">
+                  <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
+
                   <div class=" mb">
                     <div class="form-group">
                       <label for="firstName" class="text-dark">First Name</label>
@@ -229,7 +235,11 @@
     <h5 class="p-3  text-center text-white">YOU CAN SEND US <br> A MESSAGE</h5>
     <div class="panel-body mt-2">
 
-      <form action="connect.php" method="post" class="p-1 shadow">
+
+    <div id="errorMessage"></div> 
+        
+    <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
+                    
       <div class="mb">
         <div class="form-group">
           <label for="firstName" class="text-white p-2 ">First Name</label>
@@ -276,8 +286,8 @@
         </div>
 
         <div class="bt mt-3 text-center ">
-          <button class="btn btn-outline-success text-white" type="submit">Click to submit</button>
-         </div>
+                    <button class="btn btn-outline-success text-dark" type="submit">Click to submit</button>
+                   </div>
       </div>
         
       </form>
