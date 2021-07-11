@@ -251,6 +251,7 @@ html{
   .customer-care img{
       width: auto;
       height: auto;
+      color-adjust: -90%;
   } 
 
   .care{
@@ -276,7 +277,7 @@ html{
         background-image: url(../image/ADMISSION\ PROCESSING\ PICTURE.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-attachment: fixed; */        
+        background-attachment: fixed;       
     }
 
     .message-form2 img{
@@ -376,7 +377,18 @@ html{
         display: none;
     }
 
-    .mb{
+
+    .message-form2{
+        margin: 0;
+        padding: 100%;
+        background-image: url(../image/ADMISSION\ PROCESSING\ PICTURE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;       
+    }
+
+
+    .mb .form-group{
         width: 100% !important;
     }
 
