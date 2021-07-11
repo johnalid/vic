@@ -276,12 +276,13 @@ html{
         background-image: url(../image/ADMISSION\ PROCESSING\ PICTURE.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-attachment: fixed; */
-        
+        /* background-attachment: fixed; */        
     }
 
     .message-form2 img{
         color-adjust: -90%;
+        width: auto;
+        height: auto;
     }
 
    
