@@ -248,6 +248,11 @@ html{
     background-size: cover;
   }
 
+  .customer-care img{
+      width: auto;
+      height: auto;
+  } 
+
   .care{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
