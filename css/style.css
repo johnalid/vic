@@ -376,22 +376,9 @@ html{
         display: none;
     }
 
-    .message-form{
+    .mb{
         width: 100% !important;
     }
-
-
-
-    .ff{
-        display: flex !important;
-        width: 100% !important;
-    }
-
-    /* .message-form2{
-        display: block;
-    } */
-
-
 
 
     /* end of contact styling */
