@@ -236,7 +236,7 @@ html{
 
   .customer-care {
     /* The image used */
-    background-image: url("../image/neonbrand-zFSo6bnZJTw-unsplash\(A8txXpDIAb9\)\ \(1\)\(v4E5fem6Sn5\).jpg");
+    background-image: url("../image/ADMISSION\ PROCESSING\ PICTURE.jpg");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -268,10 +268,10 @@ html{
     .message-form2{
         margin: 0;
         padding: 0;
-        background-image: url(../image/VISA\ COUNSELLING\ PICTURE.jpg);
+        background-image: url(../image/ADMISSION\ PROCESSING\ PICTURE.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         
     }
 
