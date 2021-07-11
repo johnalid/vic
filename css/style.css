@@ -378,22 +378,41 @@ html{
     }
 
 
-    .message-form2{
-        margin: 0;
-        padding: 100%;
-        background-image: url(../image/ADMISSION\ PROCESSING\ PICTURE.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;       
+    .message-form2 img{
+        display: none;
+             
     }
 
 
-    .mb .form-group{
+    form{
         width: 100% !important;
     }
 
 
     /* end of contact styling */
+
+
+
+    form i{
+        width: 16px;
+        text-align: center;
+        padding: 5px;
+        
+    }
+    
+    form input{
+        border: none;
+        outline: none;
+        background: none;
+        width:100%;
+        margin: 0 10px;
+        padding: 5px;
+    }
+
+    ::placeholder{
+        color: rgb(247, 15, 15) !important;
+    }
+    
 
 
 
