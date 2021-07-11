@@ -246,14 +246,13 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .customer-care img{
-      width: auto;
-      height: auto;
-      color-adjust: -90%;
-  } 
-
+    opacity: 1;   
+    max-width: 100% !important;
+    height: auto !important;  
+    width: auto;
+    height: auto;   
+}
+  
   .care{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(225px, 1fr));
@@ -264,7 +263,6 @@ html{
 
   .care i{
     font-size: 100px;
-    color: #fff;
     padding: 13px;
     }
 
@@ -277,14 +275,14 @@ html{
         background-image: url(../image/ADMISSION\ PROCESSING\ PICTURE.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;       
+        background-attachment: fixed; 
+        opacity: 1;   
+        max-width: 100% !important;
+        height: auto !important;  
+        width: auto;
+        height: auto;   
     }
 
-    .message-form2 img{
-        color-adjust: -90%;
-        width: auto;
-        height: auto;
-    }
 
    
     /* end of the form */
@@ -292,8 +290,13 @@ html{
       
 /* end of c6ntact styling */
 
-.contact-img img{
-    height: 584px;
+/* .contact-img img{
+    height: 58px;
+    
+} */
+
+::placeholder{
+    color: rgb(247, 15, 15) !important;
 }
 
 
@@ -373,14 +376,10 @@ html{
 
 
     /* contact styling */
-    .care2{
-        display: none;
-    }
-
-
-    .message-form2 img{
-        display: none;
-             
+ 
+    .message-form2 .mb img{
+        max-width: 100% !important;
+        height: auto !important;   
     }
 
 
@@ -393,25 +392,7 @@ html{
 
 
 
-    form i{
-        width: 16px;
-        text-align: center;
-        padding: 5px;
-        
-    }
-    
-    form input{
-        border: none;
-        outline: none;
-        background: none;
-        width:100%;
-        margin: 0 10px;
-        padding: 5px;
-    }
-
-    ::placeholder{
-        color: rgb(247, 15, 15) !important;
-    }
+   
     
 
 
