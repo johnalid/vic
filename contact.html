@@ -148,91 +148,10 @@
               <p class="text-center">You can make enquires about our different products through all our available channels. We are sure of quick response.</p>
             
         
-             <div class="row p-3 rr">
-              <div class="col-lg-8 col-medium-4 col-sm-12">
-                <h5 class="p-4 text-center">YOU CAN SEND US A MESSAGE</h5>
-                <div class="panel-body bg-light mt-2">
 
 
-                  <div id="errorMessage"></div> 
-        
-                  <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
-
-                  <div class=" mb">
-                    <div class="form-group">
-                      <label for="firstName" class="text-dark">First Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="firstName"
-                        name="firstName"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="lastName" class="text-dark">Last Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="lastName"
-                        name="lastName"
-                      />
-                    </div>
-        
-        
-                    <div class="form-group">
-                      <label for="email" class="text-dark">Email</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="email"
-                        name="email"
-                      />
-                    </div>
-        
-                    <div class="form-group">
-                      <label for="number" class="text-dark">Phone Number</label>
-                      <input
-                        type="number"
-                        class="form-control"
-                        id="number"
-                        name="number"
-                      />
-                    </div>
-        
-                    <div class="form-group">
-                      <label for="textarea" class="text-dark">message<textarea name="textarea" id="textArea" cols="95" rows="6" class="form-control"></textarea></label>
-                
-                    </div>
-        
-    
-                   <div class="bt mt-3 text-center ">
-                    <button class="btn btn-outline-success text-dark" type="submit">Click to submit</button>
-                   </div>
-                  </div>
-       
-                  </form>
-                 
-                </div>
-            
-        
-            </div>
-
-            <div class="col-lg-4 col-medium-4 col-sm-12 contact-img care2">
-                <h5 class="p-3  text-center">BE REST ASSURED WE WILL RESPOND</h5>
-                <img src="image/photo-1560264357-8d9202250f21.jpg" alt="" class="img-fluid">
-            </div> 
-
-        </div>
-            
-        
-         
-    </div>
-  </div>
-  </div>
-  </div>
-
-  <div class="message-form2  bg-dark text-white p-2">
-    <h5 class="p-3  text-center text-white">YOU CAN SEND US <br> A MESSAGE</h5>
+  <div class="message-form2  bg-dark  p-2">
+    <h3 class="p-3  text-center text-danger">YOU CAN SEND US A MESSAGE</h3>
     <div class="panel-body mt-2">
 
 
@@ -240,20 +159,26 @@
         
     <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
                     
-      <div class="mb">
+      <div class="mb col-lg-6">
         <div class="form-group">
-          <label for="firstName" class="text-white p-2 ">First Name</label>
+          <i class="fa fa-user text-danger" aria-hidden="true"></i>
+
           <input
             type="text"
+            placeholder="First Name"
             class="form-control"
             id="firstName"
             name="firstName"
           />
         </div>
+
+
         <div class="form-group">
-          <label for="lastName" class="text-white p-2">Last Name</label>
+          <i class="fa fa-user text-danger" aria-hidden="true"></i>
+
           <input
             type="text"
+            placeholder="Last Name"
             class="form-control"
             id="lastName"
             name="lastName"
@@ -262,9 +187,10 @@
 
 
         <div class="form-group">
-          <label for="email" class="text-white p-2">Email</label>
+          <i class="go fa fa-envelope text-danger" aria-hidden="true"></i>
           <input
             type="text"
+            placeholder="Email"
             class="form-control"
             id="email"
             name="email"
@@ -272,28 +198,39 @@
         </div>
 
         <div class="form-group">
-          <label for="number" class="text-white p-2">Phone Number</label>
+          <i class="go fa fa-phone text-danger" aria-hidden="true"></i>
           <input
             type="number"
+            placeholder="phone number "
             class="form-control"
             id="number"
             name="number"
           />
         </div>
 
+       
+
         <div class="form-group">
-          <label for="textarea" class="text-white p-2">message<textarea name="textarea" id="textArea" cols="95" rows="6" class="form-control"></textarea></label>
+          <label for="textarea" class="text-white p-2"><textarea name="textarea" id="textArea" cols="95" rows="6"  placeholder="Message Not Less Than 20 Characters " class="form-control"></textarea></label>
         </div>
 
         <div class="bt mt-3 text-center ">
-                    <button class="btn btn-outline-success text-dark" type="submit">Click to submit</button>
-                   </div>
+        <button class="btn btn-outline-danger text-white" type="submit">Click to submit</button>
+        </div>
       </div>
         
       </form>
   </div>
   </div>
-  
+  </div>
+  </div>
+  </div>
+  </div>
+    
+   
+
+
+   
 
   
   <section class="container-fluid mt-5 text-center text-dark bg-dark">
