@@ -13,6 +13,6 @@ $enter = "INSERT INTO vino (firstName, lastName, email, number, textArea) VALUE(
 $enter2 = mysqli_query($config, $enter) or die (mysqli_error($config));
  echo 'Success';
 // redirect
-header("location: index.html");
+header("location: thank.html");
 
 ?>
