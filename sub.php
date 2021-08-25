@@ -1,4 +1,5 @@
 <?php
+include 'database.php';
 
 
 $firstName =$_POST['firstName'];
@@ -7,16 +8,11 @@ $email =$_POST['email'];
 $number =$_POST['number'];
 $textArea =$_POST['textArea'];
 
-$to = "info@vinoeducationconsulting.com";
 
-$subject = "mail from Vino Education Consulting";
-$txt = "Name =".$firstName . "\r\nLastName = ".$lastName  . "\r\nEmail = ".$email . "\r\nNumber = ".$number ."\r\nMessage =".$textArea;
-$headers  = "info@vinoeducationconsulting.com" ."\r\n" .
-"CC : johnalidy05@gmail.com";
-
-if($email!=NULL){
-    mail($to, $subject, $txt, $headers);
-
-}
+$enter = "INSERT INTO vino (firstName, lastName, email, number, textArea) VALUE('$firstName', '$lastName', '$email', '$number', '$textArea' )";
+$enter2 = mysqli_query($config, $enter) or die (mysqli_error($config));
+ echo 'Success';
 // redirect
 header("location: index.html");
+
+?>
