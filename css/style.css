@@ -4,62 +4,13 @@
     font-family: 'Pacifico','Kalam', 'Gloria Hallelujah' ;
 }
 
-
-.panel-body #errorMessage{
-    margin-bottom: 20px;
-    padding: 0px;
-    background-color: rgb(247, 14, 14);
-    text-align: center;
-    font-size: 14px;
-    transition: all 0.5s ease;
-
-
-}
-
-.nav-item a:hover{
-    color: rgb(253, 15, 15)!important;
-    background-color: #fff;
-    text-decoration: underline;
-    border-radius: 6px;
-}
-
-.nav-item .active{
-    color: #fff !important;
-    background: #000;
-    border-radius: 6px;
-    padding: 10px;
-} 
-
-.history a{
-    text-decoration: none;
-}
-
-.history a:hover{
-    color: rgb(253, 15, 15)!important;
-    text-decoration: underline;
-}
-
-.form-group textarea{
-    resize: none;
+.absent{
+    display: none;
 }
 
 
-.reach i{
-font-size: 100px;
-color: red;
-padding: 13px;
-}
 
-.reach i:hover{
-    font-size: 100px;
-    color: blue;
-    padding: 13px;
-    border-radius: 100px solid green;
-}
 
-i{
-    width: 100%;
-}
 
 *{
     padding: 0;
@@ -140,6 +91,79 @@ html{
 /* .para-one, .para-two, .para-three, .para-four, .para-five p{
     font-size:26px;
 } */
+
+.gi a{
+    text-decoration: none;
+}
+
+.gi a:hover{
+    color: rgb(253, 15, 15)!important;
+}
+
+.gi button:hover{
+    background: rgb(253, 15, 15)!important;
+    color: #fff;
+}
+
+
+
+.panel-body #errorMessage{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: rgb(247, 14, 14);
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+
+
+}
+
+.nav-item a:hover{
+    color: rgb(253, 15, 15)!important;
+    background-color: #fff;
+    text-decoration: underline;
+    border-radius: 6px;
+}
+
+.nav-item .active{
+    color: #fff !important;
+    background: #000;
+    border-radius: 6px;
+    padding: 10px;
+} 
+
+.history a{
+    text-decoration: none;
+}
+
+.history a:hover{
+    color: rgb(253, 15, 15)!important;
+    text-decoration: underline;
+}
+
+.form-group textarea{
+    resize: none;
+}
+
+
+.reach i{
+font-size: 100px;
+color: red;
+padding: 13px;
+}
+
+.reach i:hover{
+    font-size: 100px;
+    color: blue;
+    padding: 13px;
+    border-radius: 100px solid green;
+}
+
+i{
+    width: 100%;
+}
+
+
 
 
 .parallax-one {
@@ -393,6 +417,10 @@ html{
 
 
     /* end of contact styling */
+
+    .absent{
+        display: block;
+    }
 
 
 

@@ -16,17 +16,17 @@ function validation(){
         return false;
     }
 
-    // if(email.indexOf("@") ==-1 || email.length <6{
-    //     text = "please enter a valid email";
-    //     errorMessage.innerHTML = text;
-    //     return false;
-    // }
+    if(email.indexOf("@") ==-1 || email.length <5){
+        text = "please enter a valid email";
+        errorMessage.innerHTML = text;
+        return false;
+    }
 
-    // if(is(NaN(number) || number.length !=10){
-    //     text = "please enter a valid name";
-    //     errorMessage.innerHTML = text;
-    //     return false;
-    // }
+    if(is(NaN(number) || number.length !=10)){
+        text = "please enter a valid name";
+        errorMessage.innerHTML = text;
+        return false;
+    }
 
     if(message.length <=20){
         text = "please enter more than 20 characters insde the message  box ";
@@ -45,3 +45,6 @@ function validation(){
 
 
 }
+
+
+
