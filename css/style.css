@@ -10,8 +10,6 @@
 
 
 
-
-
 *{
     padding: 0;
     margin: 0;
@@ -30,7 +28,7 @@ html{
 }
 
 .hero-img{
-    height: 500px !important;
+    height: 800px !important;
     width: 100% !important;
 }
 
@@ -43,6 +41,19 @@ html{
     height: 400px;
 }
 
+.galleryimg{
+    height: 400px !important;
+    width: 400px !important;
+    padding:10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1px;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+}
 .abt-us img{
     height: 500px !important;
     filter: drop-shadow(150%);
@@ -359,6 +370,19 @@ i{
         padding: 10px;
     }
 
+    .galleryimg{
+        height: 400px !important;
+        width: 400px !important;
+        padding:20px;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
     .main h4{
         font-size: 18px;
     }
